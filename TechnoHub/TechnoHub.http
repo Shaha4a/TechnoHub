@@ -1,0 +1,6 @@
+@TechnoHub_HostAddress = http://localhost:5294
+
+GET {{TechnoHub_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

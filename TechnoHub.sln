@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoHub", "TechnoHub\TechnoHub.csproj", "{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C191D7BF-892E-4821-BB83-A32A6D4B708E}
+	EndGlobalSection
+EndGlobal
