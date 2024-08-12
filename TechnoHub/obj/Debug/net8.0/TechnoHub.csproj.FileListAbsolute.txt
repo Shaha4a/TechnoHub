@@ -67,3 +67,4 @@ C:\Users\01\source\repos\TechnoHub\TechnoHub\obj\Debug\net8.0\refint\TechnoHub.d
 C:\Users\01\source\repos\TechnoHub\TechnoHub\obj\Debug\net8.0\TechnoHub.pdb
 C:\Users\01\source\repos\TechnoHub\TechnoHub\obj\Debug\net8.0\TechnoHub.genruntimeconfig.cache
 C:\Users\01\source\repos\TechnoHub\TechnoHub\obj\Debug\net8.0\ref\TechnoHub.dll
+C:\Users\01\source\repos\TechnoHub\TechnoHub\obj\Debug\net8.0\TechnoHub.sourcelink.json

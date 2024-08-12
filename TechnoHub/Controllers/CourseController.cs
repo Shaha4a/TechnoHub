@@ -6,7 +6,7 @@ namespace TechnoHub.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CourseController:ControllerBase
+    public class CourseController : ControllerBase
     {
         private readonly CourseService _courseService;
         public CourseController(CourseService courseService)
@@ -14,6 +14,7 @@ namespace TechnoHub.Controllers
             _courseService = courseService;
         }
         [HttpPost]
+        [Route("Create")]
         public async Task<IActionResult> Create([FromBody] CourseModel course)
         {
             ResponseModel abc = new ResponseModel();
@@ -32,6 +33,7 @@ namespace TechnoHub.Controllers
 
         }
         [HttpPut]
+        [Route("Update")]
         public async Task<IActionResult> Update([FromBody] CourseModel course)
         {
             ResponseModel abc = new ResponseModel();
@@ -47,19 +49,6 @@ namespace TechnoHub.Controllers
                 return BadRequest(abc);
             }
         }
-        [HttpGet]
-        [Route("{id}")]
-        public async Task<List<CourseModel>> GetById([FromRoute] int id)
-        {
-            return await _courseService.GetUserById(id);
-        }
-        [HttpGet]
-        [Route("GetAll")]
-        public async Task<List<CourseModel>> GetAllUsers()
-        {
-            return await _courseService.GetAllUsers();
-        }
-
         [HttpDelete]
         [Route("{id}")]
         public async Task<ResponseModel> Delete([FromRoute] int id)
@@ -77,6 +66,21 @@ namespace TechnoHub.Controllers
                 return abc;
             }
         }
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<List<CourseModel>> GetById([FromRoute] int id)
+        {
+            return await _courseService.GetUserById(id);
+        }
+        [HttpGet]
+        [Route("GetAll")]
+        public async Task<List<CourseModel>> GetAllUsers()
+        {
+            return await _courseService.GetAllUsers();
+        }
+
+        
     }
 }
+
 

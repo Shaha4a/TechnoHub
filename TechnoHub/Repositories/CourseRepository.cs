@@ -29,6 +29,16 @@ namespace TechnoHub.Repositories
             connection.Close();
         }
 
+        public async Task Delete(int id)
+        {
+            string query = "UPDATE [dbo].[Cours] SET [Status] = 0 WHERE id = @id";
+            IDbConnection connection = new SqlConnection(ConnectionString);
+            connection.Open();
+            connection.ExecuteAsync(query, new { id });
+            connection.Close();
+
+        }
+
         public async Task<List<CourseModel>> GetById(int id)
         {
             string query = "SELECT [name]  FROM [dbo].[Cours]  WHERE id = @id";
@@ -53,15 +63,6 @@ namespace TechnoHub.Repositories
             var abc = await connection.QueryAsync<CourseModel>(query);
             return abc.ToList();
             connection.Close();
-        }
-        public async Task Delete(int id)
-        {
-            string query = "UPDATE [dbo].[Cours] SET [Status] = 0 WHERE id = @id";
-            IDbConnection connection = new SqlConnection(ConnectionString);
-            connection.Open();
-            connection.ExecuteAsync(query, new { id });
-            connection.Close();
-
         }
     }
 }
