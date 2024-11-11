@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\01\\source\\repos\\TechnoHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|c:\\users\\01\\source\\repos\\technohub\\technohub\\validators\\userupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|solutionrelative:technohub\\validators\\userupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|c:\\users\\01\\source\\repos\\technohub\\technohub\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|solutionrelative:technohub\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|c:\\users\\01\\source\\repos\\technohub\\technohub\\model\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|solutionrelative:technohub\\model\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|c:\\users\\01\\source\\repos\\technohub\\technohub\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|solutionrelative:technohub\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|c:\\users\\01\\source\\repos\\technohub\\technohub\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|solutionrelative:technohub\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|c:\\users\\01\\source\\repos\\technohub\\technohub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|solutionrelative:technohub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|c:\\users\\01\\source\\repos\\technohub\\technohub\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6926017F-4F9F-4A56-B6B4-ACAF3818CE7F}|TechnoHub\\TechnoHub.csproj|solutionrelative:technohub\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseModel.cs",
+              "DocumentMoniker": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Model\\CourseModel.cs",
+              "RelativeDocumentMoniker": "TechnoHub\\Model\\CourseModel.cs",
+              "ToolTip": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Model\\CourseModel.cs",
+              "RelativeToolTip": "TechnoHub\\Model\\CourseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:28:07.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "TechnoHub\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Model\\UserModel.cs",
+              "RelativeToolTip": "TechnoHub\\Model\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T22:48:03.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserUpdateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Validators\\UserUpdateValidator.cs",
+              "RelativeDocumentMoniker": "TechnoHub\\Validators\\UserUpdateValidator.cs",
+              "ToolTip": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Validators\\UserUpdateValidator.cs",
+              "RelativeToolTip": "TechnoHub\\Validators\\UserUpdateValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T15:56:55.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Validators\\UserValidator.cs",
+              "RelativeDocumentMoniker": "TechnoHub\\Validators\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Validators\\UserValidator.cs",
+              "RelativeToolTip": "TechnoHub\\Validators\\UserValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T22:26:52.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "TechnoHub\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Service\\UserService.cs",
+              "RelativeToolTip": "TechnoHub\\Service\\UserService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:07:25.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TechnoHub\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TechnoHub\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:07:10.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Program.cs",
+              "RelativeDocumentMoniker": "TechnoHub\\Program.cs",
+              "ToolTip": "C:\\Users\\01\\source\\repos\\TechnoHub\\TechnoHub\\Program.cs",
+              "RelativeToolTip": "TechnoHub\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:28:13.154Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

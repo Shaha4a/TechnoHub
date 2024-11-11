@@ -1,6 +1,7 @@
 
 using TechnoHub.Repositories;
 using TechnoHub.Service;
+using TechnoHub.Validators;
 
 namespace TechnoHub
 {
@@ -21,6 +22,9 @@ namespace TechnoHub
 
             builder.Services.AddScoped<CourseRepository>();
             builder.Services.AddScoped<CourseService>();
+
+            builder.Services.AddScoped<UserValidator>();
+            builder.Services.AddScoped<UserUpdateValidator>();
 
             var app = builder.Build();
 

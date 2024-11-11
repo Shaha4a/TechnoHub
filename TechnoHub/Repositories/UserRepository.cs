@@ -13,7 +13,7 @@ namespace TechnoHub.Repositories
 
         public async  Task<int> Create(UserModel user)
         {
-            string query = "INSERT INTO [dbo].[User] ([name],[surname],[lastname],[birhday] ,[Status]) VALUES (@Name, @Surname, @lastName, @birthday,  0) Select scope_identity();";
+            string query = "INSERT INTO [dbo].[StudentTable] ([name],[surname],[lastname],[birhday] ,[Status]) VALUES (@Name, @Surname, @lastName, @birthday,  0) Select scope_identity();";
             int Id = 0;
             IDbConnection connection = new SqlConnection(ConnectionString);
             connection.Open();
@@ -49,7 +49,7 @@ namespace TechnoHub.Repositories
         }
         public async Task<List<UserModel>> GetAll()
         {
-            string query = "SELECT [int],[name],[surname],[lastname],[birhday],[Status]  FROM [dbo].[User]";
+            string query = "SELECT [int],[name],[surname],[lastname],[birhday],[Status]  FROM [dbo].[StudentTable]";
             IDbConnection connection = new SqlConnection(ConnectionString);
             connection.Open();
             var abc = await connection.QueryAsync<UserModel>(query);

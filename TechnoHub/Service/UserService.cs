@@ -1,22 +1,40 @@
 ﻿using TechnoHub.Model;
 using TechnoHub.Repositories;
+using TechnoHub.Validators;
 
 namespace TechnoHub.Service
 {
     public class UserService
     {
         private readonly UserRepository _userRepository;
+        private readonly UserValidator _userValidator;
 
-        public UserService(UserRepository userRepository) 
+        public UserService(UserRepository userRepository, UserValidator userValidator) 
         {
             _userRepository = userRepository;
+            _userValidator = userValidator;
         }
 
         public async Task<ResponseModel> CreateUser(UserModel user)
         {
             int id = 0;
-            ResponseModel response= new ResponseModel();
+            ResponseModel response = new ResponseModel();
+
+            var validationResult = await _userValidator.ValidateAsync(user);
+
+            if(!validationResult.IsValid)
+            {
+                foreach(var error in validationResult.Errors)
+                {
+                    response.Code = StatusCodes.Status400BadRequest;
+                    response.Message = error.ToString();
+                    response.UserId = id;
+                    return response;
+                }
+            }
+            
             id = await _userRepository.Create(user);
+
             if(id != 0) 
             {
                 response.Code = 1;
@@ -34,6 +52,7 @@ namespace TechnoHub.Service
         public async Task<ResponseModel> UpdateUser(UserModel user)
         {
             ResponseModel response = new ResponseModel();
+
             var userlist = await _userRepository.GetById((int)user.Id);
             if (userlist.Count == 0)
             {
@@ -72,8 +91,6 @@ namespace TechnoHub.Service
                 response.Message = "Успешно";
                 return response;
             }
-            
-            
         }
     }
 }
